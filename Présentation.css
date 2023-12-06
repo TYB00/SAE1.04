@@ -1,0 +1,57 @@
+body {
+    background-attachment: fixed;
+    background-image: url('../Présentation/Image/sz4adphrwnb31.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: CIND;
+    src: url('../Présentation/css/fonts/CIND.otf')
+}
+
+header {
+    font-family: CIND;
+    font-size: 50px;
+    border: 5px solid rgb(224,231,34);
+    padding: 10px; 
+    color: rgb(224,231,34);
+    text-align: center;
+    margin: auto;
+}
+
+.colonne {
+  width: 30%;
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  background-color: rgb(171,32,253, 0.4)
+}
+
+h1, h2, h3 {
+    font-family: CIND;
+    font-size: 30px;
+    color: rgb(0, 254, 252);
+}
+
+p, p2, p3, p4 {
+    font-family: CIND;
+    font-size: 15px;
+    color: white;
+}
+
+.site {
+    float: inline-end;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.541);
+}

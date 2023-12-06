@@ -1,0 +1,41 @@
+body {
+    background-attachment: fixed;
+    background-image: url('../Hobby/Image/1315743.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 10px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: SpaceCrow;
+    src: url("../Hobby/Police/SpaceCrow.otf")
+}
+
+@font-face {
+    font-family: EMYRLAdemo;
+    src:url("../Hobby/Police/EMYRLAdemo.ttf")
+}
+
+.head {
+    font-family: SpaceCrow;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.colonne, .colonne2, .colonne3 {
+    width: 30%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(39, 135, 224);
+    padding: 10px;
+    background-color: rgba(97, 15, 15, 0.4)
+}
+
+p {
+    font-family: EMYRLAdemo;
+    color: rgb(39, 135, 224);
+    font-size: 15px;
+}
